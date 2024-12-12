@@ -18,7 +18,7 @@ let respecConfig = {
   //previousPublishDate: "2022-06-24",
   //previousPublishVersion: "0.0.4",
   
-  title: "Normafwijking",
+  title: "Locatie",
 //  subtitle: "Tevens een voorbeeld van een gegenereerd Respec document",
 //  content: {"mermaid": "", "ch01": "informative", "ch02": ""},
 //  authors:
@@ -64,4 +64,3 @@ let respecConfig = {
         },
     },
 }
- 
