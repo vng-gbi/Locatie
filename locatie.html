@@ -1,7 +1,6 @@
          <h2>Gegevensdefinitie</h2>
-         <p><b>Deze tekst is normatief.</b>
-            <!--SIM-InkomenModellen-1.0-1-20230101-20241211-135505 imvertor 4.0.0--></p>
-         <div class="imageinfo overview"><img src="Images/EAID_D965482E_CA08_404f_9B14_8E4D1B0AEA32.png" usemap="#imagemap-EAID_D965482E_CA08_404f_9B14_8E4D1B0AEA32" alt="Diagram: Locatie- overzicht"><map name="imagemap-EAID_D965482E_CA08_404f_9B14_8E4D1B0AEA32"><area shape="rect" alt="Adreshouding" coords="134,317,363,456" href="#global_class_Locatie_Adreshouding"><area shape="rect" alt="Adres" coords="161,700,337,830" href="#global_class_Locatie_Adres"><area shape="rect" alt="Adres Buitenland" coords="401,810,695,1001" href="#global_class_Locatie_AdresBuitenland"><area shape="rect" alt="Adres Nederland" coords="443,446,676,726" href="#global_class_Locatie_AdresNederland"><area shape="rect" alt="Antwoordnummeradres" coords="769,683,1041,792" href="#global_class_Locatie_Antwoordnummeradres"><area shape="rect" alt="Huisvesting" coords="48,78,450,252" href="#global_class_Locatie_Huisvesting"><area shape="rect" alt="Huurvorm" coords="676,68,943,260" href="#global_class_Locatie_Huurvorm"><area shape="rect" alt="Postbusadres" coords="769,549,984,658" href="#global_class_Locatie_Postbusadres"><area shape="rect" alt="Postbusadres buitenland" coords="767,973,1042,1082" href="#global_class_Locatie_Postbusadresbuitenland"><area shape="rect" alt="Straatadres" coords="769,300,1059,527" href="#global_class_Locatie_Straatadres"><area shape="rect" alt="Straatadres buitenland" coords="772,837,1037,945" href="#global_class_Locatie_Straatadresbuitenland"></map><p><b>Locatie- overzicht</b>
+            <!--SIM-InkomenModellen-1.0-1-20230101-20250110-135405 imvertor 4.0.0--></p>
+         <div class="imageinfo overview"><img src="Images/EAID_D965482E_CA08_404f_9B14_8E4D1B0AEA32.png" usemap="#imagemap-EAID_D965482E_CA08_404f_9B14_8E4D1B0AEA32" alt="Diagram: Locatie- overzicht"><map name="imagemap-EAID_D965482E_CA08_404f_9B14_8E4D1B0AEA32"><area shape="rect" alt="Adreshouding" coords="134,317,362,454" href="#global_class_Locatie_Adreshouding"><area shape="rect" alt="Adres" coords="161,699,336,828" href="#global_class_Locatie_Adres"><area shape="rect" alt="Adres Buitenland" coords="400,808,693,999" href="#global_class_Locatie_AdresBuitenland"><area shape="rect" alt="Adres Nederland" coords="442,445,674,725" href="#global_class_Locatie_AdresNederland"><area shape="rect" alt="Antwoordnummeradres" coords="767,681,1038,790" href="#global_class_Locatie_Antwoordnummeradres"><area shape="rect" alt="Huisvesting" coords="48,78,449,251" href="#global_class_Locatie_Huisvesting"><area shape="rect" alt="Huurvorm" coords="674,68,940,259" href="#global_class_Locatie_Huurvorm"><area shape="rect" alt="Postbusadres" coords="767,547,981,656" href="#global_class_Locatie_Postbusadres"><area shape="rect" alt="Postbusadres buitenland" coords="766,970,1040,1079" href="#global_class_Locatie_Postbusadresbuitenland"><area shape="rect" alt="Straatadres" coords="767,299,1056,525" href="#global_class_Locatie_Straatadres"><area shape="rect" alt="Straatadres buitenland" coords="770,835,1034,943" href="#global_class_Locatie_Straatadresbuitenland"></map><p><b>Locatie- overzicht</b>
                
                <p></p>
                </p>
@@ -1110,12 +1109,12 @@
                            
                            <a class="link" href="#global_class_Locatie_Adreshouding">Adreshouding</a>
                            
-                           [ 1 ]
+                           [ 0 .. * ]
                            
                            <a class="link" href="#detail_association_Locatie_Adreshouding_AdreshoudingbevatAdres">Adreshouding bevat Adres</a>
                            
                            Adres
-                           [ 0 .. * ]
+                           [ 1 ]
                            </td>
                         <td></td>
                      </tr>
@@ -1280,12 +1279,12 @@
                            
                            <a class="link" href="#global_class_Locatie_Huisvesting">Huisvesting</a>
                            
-                           [ 0 .. 1 ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Locatie_Huisvesting_HuisvestingheeftHuurvorm">Huisvesting heeft Huurvorm</a>
                            
                            Huurvorm
-                           [ 1 ]
+                           [ 0 .. 1 ]
                            </td>
                         <td></td>
                      </tr>
@@ -1540,14 +1539,14 @@
                      <tr>
                         <td>
                            Adreshouding
-                           [ 1 ]
+                           [ 0 .. * ]
                            
                            <a class="link" href="#detail_association_Locatie_Adreshouding_AdreshoudingbevatAdres">Adreshouding bevat Adres</a>
                            
                            
                            <a class="link" href="#global_class_Locatie_Adres">Adres</a>
                            
-                           [ 0 .. * ]
+                           [ 1 ]
                            </td>
                         <td></td>
                      </tr>
@@ -1703,14 +1702,14 @@
                      <tr>
                         <td>
                            Huisvesting
-                           [ 0 .. 1 ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Locatie_Huisvesting_HuisvestingheeftHuurvorm">Huisvesting heeft Huurvorm</a>
                            
                            
                            <a class="link" href="#global_class_Locatie_Huurvorm">Huurvorm</a>
                            
-                           [ 1 ]
+                           [ 0 .. 1 ]
                            </td>
                         <td></td>
                      </tr>
@@ -5618,7 +5617,7 @@
                            </tr>
                            <tr>
                               <th>Indicatie kardinaliteit</th>
-                              <td>0 .. *</td>
+                              <td>1</td>
                            </tr>
                            <tr>
                               <th>Indicatie authentiek</th>
@@ -6139,7 +6138,7 @@
                            </tr>
                            <tr>
                               <th>Indicatie kardinaliteit</th>
-                              <td>1</td>
+                              <td>0 .. 1</td>
                            </tr>
                            <tr>
                               <th>Indicatie authentiek</th>
